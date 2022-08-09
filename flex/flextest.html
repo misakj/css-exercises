@@ -12,20 +12,24 @@
         border: 4px solid brown; 
         height: 100px;
         /* flex-grow flex-shrink flex-basis */
-        flex: 1 1 auto;
+        flex: 0 1 auto;
+    }
+
+    .flex-container .two {
+        flex-wrap: wrap;
     }
 
     .flex-container .three {
-        flex-grow: 3;
+        
     }
 
     </style>
 </head>
 <body>
     <div class="flex-container">
-        <div class="one"></div>
-        <div class="two"></div>
-        <div class="three"></div>
+        <div class="one">class one </div>
+        <div class="two">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In maxime earum quibusdam aut sunt iure harum, similique numquam corrupti repellat quo culpa eius distinctio excepturi dolores, deserunt saepe ipsam laborum soluta tenetur cumque exercitationem. Ipsum eaque quibusdam nemo, exercitationem, at adipisci deleniti facilis dolore fugiat dolorum nesciunt accusamus amet est.</div>
+        <div class="three">class three</div>
 
     </div>
 </body>
